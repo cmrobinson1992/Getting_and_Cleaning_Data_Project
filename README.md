@@ -9,6 +9,8 @@ The raw data provided contains the following:
 
 For the analysis, I first combined the test and the train datasets, keeping on the features that were either a mean or a standard deviation.  Then, I replaced the activity column with the corresponding labels.  I renamed the columns in the dataset so that they were clean.  Lastly, I created a subsetted dataset, resulting in the means of each subject with each activity.
 
-The script and tidy dataset can also be found in this repository.
+The script and tidy dataset can also be found in this repository.  To view the tidy dataset in R, you can run the following code:
+dataset <- read.table("tidy.txt", header=TRUE)
+View(dataset)
 
 The last item is the Code Book, which details the changes made and the resulting data.
